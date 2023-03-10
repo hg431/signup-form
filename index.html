@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(cristian-palmer-XexawgzYOBc-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            margin: 0;
+        }
+        #sidebar {
+            text-align: center;
+            height:100vh;
+        }
+        #sidebar .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 600,
+            'GRAD' 200,
+            'opsz' 48;
+        }
+        #sidebar #logo {
+            font-family: 'Tilt Neon', cursive;
+            color: white;
+            font-size: 2rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-top:20vh;
+            padding: 2rem 0;
+        }
+        #credits, #credits a {
+            font-size:0.7rem;
+            color:white;
+            text-decoration: none;
+        }
+        #credits {
+            position:fixed;
+            bottom:20px;
+            width:33%;
+        }
+        #main {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        #form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+        }
+        #introductory-text {
+            font-size: 2rem;
+            margin-top:15vh;
+            padding: 30px;
+        }
+        #buttons {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="sidebar">
+    <div id="logo">
+        <span class="material-symbols-outlined">sailing</span> Boat Comparison
+    </div>
+    
+    <div id="credits">
+        Photo by <a href="https://unsplash.com/@cristianpalmer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristian Palmer</a> on <a href="https://unsplash.com/photos/XexawgzYOBc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+</div>
+
+<div id="main">
+    <div id="introductory-text">
+This is not a real online service! YOu know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started. You <em>know</em> you want to.
+    </div>
+    <form>
+    <div id="form">
+Let's do this. Form elements here.
+
+<ul>
+    <li><label for="first-name">First name: </label><input type="text" name="first-name" id="first-name" required /></li>
+    <li><label for="last-name">Last name: </label><input type="text" name="last-name" id="last-name" required /></li>
+    <li><label for="email">Email: </label><input type="Email" name="email" id="email" required="required" /></li>
+    <li><label for="number">Phone number: </label><input type="number" name="number" id="number" required="required" /></li>
+    <li><label for="password">Password: </label><input type="password" name="password" id="password" required="required"></li>
+    <li><label for="password-check">Confirm password: </label><input type="password" name="" id="" required="required"></li>
+</ul>
+
+    </div>
+    <div id="buttons">
+<button>Create Account</button>
+<p>Already have an account? <a href="">Log in</a></p>
+    </div>
+</form>
+</div>
+
+    
+</body>
+</html>
